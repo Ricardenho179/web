@@ -12,6 +12,39 @@ body {
   color: #fed136;
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
+.tituloPag {
+  justify-content: center;
+  display: flex;
+  color: #fed136;
+  font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive;
+  font-size: 55px;
+  height: 115px;
+}
+#navbarResponsive {
+  display: flex;
+  justify-content: center;
+}
+ul.navbar-nav.text-uppercase.ml-auto {
+  color: white;
+  height: 123px;
+  display: flex;
+  width: 124px;
+  flex-flow: column;
+  margin: 0;
+  padding: 0;
+  justify-content: space-between;
+}
+
+.btn-primary {
+  background-color: #fed136;
+  border-color: #fed136;
+  color: white;
+}
+
+nav#mainNav {
+  background: #000;
+}
+
 
 
 /***********************************************FIM****************************************************************/
@@ -97,11 +130,6 @@ section h3.section-subheading {
   padding: 20px 40px;
 }
 
-.btn-primary {
-  background-color: #fed136;
-  border-color: #fed136;
-}
-
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
   background-color: #fec810 !important;
   border-color: #fec810 !important;
@@ -143,11 +171,6 @@ img::-moz-selection {
   border: 0;
   background-color: #fed136;
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-}
-
-#mainNav .navbar-brand {
-  color: #fed136;
-  font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive;
 }
 
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
